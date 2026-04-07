@@ -1,0 +1,8 @@
+{
+    "chat.tools.terminal.autoApprove": {
+        "/^cd /workspaces/skills-getting-started-with-github-copilot && /workspaces/skills-getting-started-with-github-copilot/\\.venv/bin/python -m pytest tests/ --cov=src --cov-report=term-missing$/": {
+            "approve": true,
+            "matchCommandLine": true
+        }
+    }
+}
